@@ -124,3 +124,57 @@ h1{
 .btn-start:active {
   transform: scale(0.95);
 }
+@media screen and (max-width:767px){
+  h1{
+    font-size: 70px;
+  }
+  .contador{
+    width: 100%;
+  }
+  .contador p{
+  font-size:35px;
+  }
+  .gameboard{
+    width: 100%;
+  }
+  .btn-start{
+    width: 100vw;
+    left: 0%;
+    font-size: 2.5em;
+  }
+  @media screen and (min-height:750px){
+    .gameboard{
+    margin: 20% auto 40%;
+  }
+  }
+}
+/* @media screen and (min-width:400px){
+  .gameboard{
+    margin: 10% auto 40%;
+  }
+} */
+@media screen and (max-width:426px){
+  .gameboard{
+    margin: 10% auto 20%;
+  }
+}
+@media screen and (max-width:376px){
+  .gameboard{
+    margin: 0 auto auto;
+  }
+@media screen and (min-height:700px){
+  .gameboard{
+    margin: 20% auto 40%;
+  }
+}
+}
+@media screen and (max-width:319px){
+  .gameboard{
+    margin: 10% auto 40%;
+  }
+}
+@media screen and (max-width:281px){
+  .gameboard{
+    margin: 20% auto 40%;
+  }
+}
