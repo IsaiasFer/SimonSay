@@ -15,6 +15,14 @@ h1{
   margin:0;
   font-size:3em;
 }
+h6{
+  margin:0
+}
+h6 a{
+  text-decoration: none;
+  color: red;
+  font-family: 'Pacifico', cursive;
+}
 .contador, .contador p{
   font-family: 'Pacifico', cursive;
   display: flex;
@@ -155,7 +163,10 @@ h1{
 } */
 @media screen and (max-width:426px){
   .gameboard{
-    margin: 10% auto 20%;
+    margin: 10% auto 10%;
+  }
+  @media screen and (min-height:800px){
+    .gameboard{margin: 10% auto 40%;}
   }
 }
 @media screen and (max-width:376px){
